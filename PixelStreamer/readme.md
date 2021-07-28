@@ -6,6 +6,9 @@ In this implementation, I simply accept a web function call and set a specified 
 
 ## Web UI
 
+![Web interface](/images/drawingScreenshot.png)
+![Result on real board after drawing on web interface](/images/drawingIrl.jpg)
+
 To try this out and control it, I created a webUI that allows you to draw on a board to set various pixel values
 
 To setup the web UI, you'll have to include your particle API keys in the drawingController.js file

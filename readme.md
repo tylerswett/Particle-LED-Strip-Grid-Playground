@@ -1,4 +1,4 @@
-# Particle Neopixel Grid Playground
+# Particle Pixel Grid Playground
 
 This is an area for me to mess around with various random ideas I have for projects involving IoT connected NeoPixel grids.
 
