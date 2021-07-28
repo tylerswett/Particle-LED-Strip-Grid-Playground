@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+
+    <title>Drawing Board</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="drawingController.js"></script>
+  </head>
+  <body class="no-select">
+    <div id="container">
+      <div id="grid"></div>
+      <button id="clear">Clear</button><br />
+      <label for="color">Color</label>
+      <input id="color" type="color" value="#ffffff" /><br />
+      <input id="image-upload" type="file" />
+    </div>
+
+    <canvas id="image-canvas"></canvas>
+  </body>
+</html>
